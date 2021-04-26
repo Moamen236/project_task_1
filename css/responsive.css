@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .about .section-title p {
+    max-width: 70%;
+  }
+  .banner h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .banner h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .banner h3 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
