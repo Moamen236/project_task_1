@@ -265,6 +265,171 @@ section {
 }
 
 /* == contact Section === */
+/* == services Section === {Hala} */
+
+.service .text-center{
+	background-color: rgb(236, 233, 233);
+  }
+  .service .section-service {
+	text-align: center;
+	padding-bottom: 30px;
+  }
+  .service .section-service h2 {
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	padding: 8px 20px;
+	line-height: 1;
+	margin: 0;
+	background: #fdeff2;
+	color: #e43c5c;
+	display: inline-block;
+	text-transform: uppercase;
+	border-radius: 50px;
+  }
+  .service .section-service h3 span {
+	color: #e43c5c;
+  }
+  .col-md-3{
+	width: 25%;
+   
+  }
+  .description{
+	font-size: 15px;
+	line-height: 28px;
+	margin-bottom: 0;
+  }
+  .icons{
+	
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 60px 30px;
+	 overflow: hidden;
+	  border-radius: 8px;
+  
+  }
+  
+  /* .icons::before{
+	content: '';
+	position: absolute;
+	background: #fdeff2;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 100%;
+	transition: all 0.4s;
+	z-index: -1;
+  } */
+  .layer-icon{
+	position: absolute;
+	top:100%;
+	left: 0;
+   right: 0;
+   transition: all 0.3s ease-in-out;
+	background-color: #e43c5c;
+	width: 100%;
+	height: 100%;
+   
+  
+  }
+  .icons:hover .layer-icon{
+	top:0;
+	
+  }
+  
+  
+  .icon{
+	margin-bottom: 15px;
+	font-size: 48px;
+	line-height: 1;
+	color: #e43c5c;
+	
+	
+  }
+  
+  .service .title a{
+	color: #111;
+  }
+  
+  
+  .icons-service{
+	background-color: rgb(240, 235, 235);
+  }
+  
+  .service .text-center{
+	background-color:  rgb(240, 235, 235);
+  }
+  .box{
+  
+	margin: 40px 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
+  .icons-service .box a{
+	color: #111;
+  }
+  .icons-service a:hover{
+	color: #d66d80;
+  }
+  .p-box{
+	display: flex;
+	padding-left: 10px;
+  
+  }
+  .c-box{
+	padding-left: 10px;
+  }
+  .fa-store{
+	color: #ffbb2c;
+	font-size: 30px;
+	
+  }
+  .fa-database{
+	color: #47aeff;
+	font-size: 30px;
+  }
+  .fa-anchor{
+	color: #b2904f;
+	font-size: 30px;
+  }
+  .fa-chart-bar{
+	color: #5578ff;
+	font-size: 30px;
+  }
+  .fa-radiation-alt{
+	color: #ffa76e;
+	font-size: 30px;
+  }
+  .fa-compact-disc{
+	color: #b20969;
+	font-size: 30px;
+  }
+  .fa-calendar-week{
+	color: #e80368;
+	font-size: 30px;
+  }
+  .fa-file-invoice{
+	color: #11dbcf;
+	font-size: 30px;
+  }
+  .fa-artstation{
+	color: #ff5828;
+	font-size: 30px;
+  }
+  .fa-paint-roller{
+	color: #e361ff;
+	font-size: 30px;
+  }
+  .fa-tags{
+	color: #4233ff;
+	font-size: 30px;
+  }
+  .fa-fingerprint{
+	color: #29cc61;
+	font-size: 30px;
+  }
+  /* == services Section === {Hala}*/
+
 
 /* == footer Section === */
 
