@@ -267,14 +267,11 @@ section {
 /* == contact Section === */
 /* == services Section === {Hala} */
 
-.service .text-center{
-	background-color: rgb(236, 233, 233);
-  }
-  .service .section-service {
+.service .section-service {
 	text-align: center;
 	padding-bottom: 30px;
-  }
-  .service .section-service h2 {
+}
+.service .section-service h2 {
 	font-size: 13px;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -286,146 +283,241 @@ section {
 	display: inline-block;
 	text-transform: uppercase;
 	border-radius: 50px;
-  }
-  .service .section-service h3 span {
+}
+.service .section-service h3 span {
 	color: #e43c5c;
-  }
-  .col-md-3{
+}
+.col-md-3 {
 	width: 25%;
-   
-  }
-  .description{
+}
+.description {
 	font-size: 15px;
 	line-height: 28px;
 	margin-bottom: 0;
-  }
-  .icons{
-	
-	background-color: #fff;
-	border-radius: 8px;
+}
+
+.service .icon-box {
 	padding: 60px 30px;
-	 overflow: hidden;
-	  
-	  z-index: 1;
-  }
-  
-  
-  .layer-icon::before{
-	
-    content: '';
-  position: absolute;
-  background: #fdeff2;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  top: 100%;
-  transition: all 0.4s;
-  z-index: -1;
-  
-  }
-  .icons:hover .layer-icon::before{
-	top:0;
-	border-radius: 0px;
+	position: relative;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: 2px 0 35px 0 rgb(68 88 144 / 12%);
+	transition: all 0.3s ease-in-out;
+	border-radius: 8px;
+	z-index: 1;
+	text-align: center;
+}
+
+.service .icon-box::before {
+	content: '';
+	position: absolute;
+	background: #fdeff2;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 100%;
+	transition: all 0.4s;
+	z-index: -1;
+}
+
+.service .icon-box:hover::before {
 	background: #e43c5c;
-  }
-  
-  
-  .icon{
-	margin-bottom: 15px;
+	top: 0;
+	border-radius: 0px;
+}
+.service .icon svg {
 	font-size: 48px;
 	line-height: 1;
 	color: #e43c5c;
-	
-	
-  }
-  .service .icon-box:hover .title a, .service .icon-box:hover .description ,.icon-box:hover i {
+	transition: all 0.3s ease-in-out;
+}
+.service .icon-box:hover .icon svg {
 	color: #fff;
-  }
-  
-  
-  .service .title a{
+}
+.service .icon {
+	margin-bottom: 15px;
+}
+.service .title {
+	font-weight: 700;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.service .description {
+	font-size: 15px;
+	line-height: 28px;
+	margin-bottom: 0;
+}
+.service .icon-box:hover .title a,
+.service .icon-box:hover .description,
+.icon-box:hover i {
+	color: #fff;
+}
+
+.service .title a {
 	color: #111;
-  }
-  
-  
-  .icons-service{
-	background-color: rgb(240, 235, 235);
-  }
-  
-  .service .text-center{
-	background-color:  rgb(240, 235, 235);
-  }
-  .box{
-  
+}
+
+.box {
 	margin: 40px 0px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-  }
-  .icons-service .box a{
+	box-shadow: 2px 0 35px 0 rgb(68 88 144 / 12%);
+}
+.icons-service .box a {
 	color: #111;
-  }
-  .icons-service a:hover{
+}
+.icons-service a:hover {
 	color: #d66d80;
-  }
-  .p-box{
+}
+.p-box {
 	display: flex;
 	padding-left: 10px;
-  
-  }
-  .c-box{
+}
+.c-box {
 	padding-left: 10px;
-  }
-  .fa-store{
+}
+.fa-store {
 	color: #ffbb2c;
 	font-size: 30px;
-	
-  }
-  .fa-database{
+}
+.fa-database {
 	color: #47aeff;
 	font-size: 30px;
-  }
-  .fa-anchor{
+}
+.fa-anchor {
 	color: #b2904f;
 	font-size: 30px;
-  }
-  .fa-chart-bar{
+}
+.fa-chart-bar {
 	color: #5578ff;
 	font-size: 30px;
-  }
-  .fa-radiation-alt{
+}
+.fa-radiation-alt {
 	color: #ffa76e;
 	font-size: 30px;
-  }
-  .fa-compact-disc{
+}
+.fa-compact-disc {
 	color: #b20969;
 	font-size: 30px;
-  }
-  .fa-calendar-week{
+}
+.fa-calendar-week {
 	color: #e80368;
 	font-size: 30px;
-  }
-  .fa-file-invoice{
+}
+.fa-file-invoice {
 	color: #11dbcf;
 	font-size: 30px;
-  }
-  .fa-artstation{
+}
+.fa-artstation {
 	color: #ff5828;
 	font-size: 30px;
-  }
-  .fa-paint-roller{
+}
+.fa-paint-roller {
 	color: #e361ff;
 	font-size: 30px;
-  }
-  .fa-tags{
+}
+.fa-tags {
 	color: #4233ff;
 	font-size: 30px;
-  }
-  .fa-fingerprint{
+}
+.fa-fingerprint {
 	color: #29cc61;
 	font-size: 30px;
-  }
-  /* == services Section === {Hala}*/
+}
+/* == services Section === {Hala}*/
 
+/* == FAQ Section === */
+
+.faq {
+	padding: 0;
+	list-style: none;
+}
+
+.faq .question {
+	display: block;
+	position: relative;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	padding-left: 25px;
+	cursor: pointer;
+	color: #d01d3f;
+	transition: 0.3s;
+}
+
+.faq .collapsed {
+	color: black;
+}
+
+.accordion-button:focus {
+	z-index: 3;
+	border-color: none;
+	outline: 0;
+	box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+	color: #d01d3f;
+	background-color: #fff;
+	box-shadow: none;
+}
+/* == FAQ Section === */
+
+/* == team Section === */
+
+.team .member {
+	margin-bottom: 20px;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.team .member .member-img {
+	position: relative;
+	overflow: hidden;
+}
+
+.team .member .social {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 40px;
+	opacity: 0;
+	transition: ease-in-out 0.3s;
+	background: rgba(255, 255, 255, 0.85);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.team .member:hover .social {
+	opacity: 1;
+}
+
+.team .member .social a {
+	transition: color 0.3s;
+	color: #493c3e;
+	margin: 0 10px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.team .member .social svg {
+	font-size: 18px;
+	margin: 0 2px;
+}
+
+.team .member .social a:hover {
+	color: #e43c5c;
+}
+
+.team .member .member-info {
+	padding: 25px 15px;
+}
+/* == team Section === */
 
 /* == footer Section === */
 
@@ -565,6 +657,3 @@ footer .social-links a:hover {
 	color: #fff;
 }
 /* == footer Section === */
-
-
-
