@@ -440,14 +440,17 @@ section {
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
-	padding-left: 25px;
+	padding-left: 0;
 	cursor: pointer;
 	color: #d01d3f;
 	transition: 0.3s;
 }
 
 .faq .collapsed {
-	color: black;
+	color: #000;
+}
+.faq .collapsed:hover {
+	color: #e43c5c;
 }
 
 .accordion-button:focus {
@@ -461,6 +464,10 @@ section {
 	color: #d01d3f;
 	background-color: #fff;
 	box-shadow: none;
+}
+.accordion-item {
+	border: none;
+	border-bottom: 2px solid #f1eeef;
 }
 /* == FAQ Section === */
 
